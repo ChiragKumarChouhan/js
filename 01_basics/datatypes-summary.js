@@ -40,3 +40,31 @@ const myFunction = function(){
 }
 
 console.log(typeof BigInt)
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++
+
+//stack memory use in primitive data types(copy value given)
+
+// heap memory use in non-primitive data types(refrence value given)
+
+let myYoutubename = "chirag2@gmail.com"
+
+let anothername = myYoutubename
+anothername= "vaibhav.mail.com" // becuase they are an primitive datatype so value so actual value will be shared only copyied value will be shared
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let user1 = {
+    email: "ckkc.mailcom", //give comma
+     upi : "123@bbl"
+
+}
+let user2 = user1
+user2.email= "chchc.mail"
+ 
+console.log(user1.email);
+console.log(user2.email); //due to heap memory there will be an same type of refrence given
+ 
