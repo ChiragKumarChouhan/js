@@ -6,5 +6,9 @@ const repoCount = 50
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`); // good practice 
 
+//types to acces strings
 
-vf
+const gameName= new String('chiraggg')
+
+console.log(gameName[3]);
+console.log(gameName.__proto__);
