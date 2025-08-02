@@ -1,6 +1,6 @@
 "use strict";  //treat all js code as never version
 
-// alert(3+3) //are using node js ,not browser
+// alert(3+3) //are using node js ,not browser its only for browser
 
 console.log(3
 
