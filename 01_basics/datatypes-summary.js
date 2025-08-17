@@ -14,7 +14,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123') 
 
-//symbol never consider two values eqaul its always consider them as an new difrent value
+// "symbol" never consider two values eqaul its always consider them as an new difrent value
 
 
 console.log(id == anotherId)
@@ -35,9 +35,14 @@ const heros = ["msdhoni","virat kohli","rohit sharma"];
 
 //function
 
-const myFunction = function(){
+const val = function(){
+// val is a function name 
+// function is necesary to do 
+//const mean you cant change its value further 
+
     console.log("hello world");
 }
+val();   // function call
 
 console.log(typeof BigInt)
 
